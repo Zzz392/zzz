@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<>lang="en"
+[Uploading Untitle<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,54 +10,54 @@
         height: 100vh;
         background-color: #eee;
       }
-      /* * { 边框：1px 实线 rgb(0, 0, 0);
-      */
+      /* * {  border: 1px solid rgb(0, 0, 0);
+      }*/
       .y {
-        盒子阴影：rgb （0  0  0 / 20 ％） 0像素 2像素 1像素，
-          rgb （0  0  0 / 14 ％） 0 px  1 px  1 px  0 px，rgb （0  0  0 / 12 ％） 0 px  1 px  3 px  0 px；
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
       }
-      。柔性{
-        显示：弹性；
+      .flex {
+        display: flex;
       }
-      .白色{
-        背景颜色：白色；
+      .baiSe {
+        background-color: white;
       }
       .flex1 {
-        弹性：1；
+        flex: 1;
       }
-      。柱子{
-        弹性方向：列；
+      .column {
+        flex-direction: column;
       }
       .mg8 {
-        边距：8px；​
+        margin: 8px;
       }
       .mgr8 {
-        右边距：8px；
+        margin-right: 8px;
       }
       .mat8 {
-        上边距：8px；
+        margin-top: 8px;
       }
-    </样式>
-  </头>
-  <主体类= “flex” >
+    </style>
+  </head>
+  <body class="flex">
     <!--侧边栏-->
-    < div style = " width : 200 px ; z-index : 2 "  class = "baiSe y" >
+    <div style="width: 200px; z-index: 2" class="baiSe y">
       <!--头像-->
-      < div
-        风格= “
-          填充：10像素；
-          对齐项目：居中；
-          对齐内容：居中；
-          底部边框：1 px 实线#999;
-        “
-        类= “flex”
+      <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+        "
+        class="flex"
       >
-        <图片
-          来源= “https://p1.ssl.qhimgs1.com/sdr/400__/t016fe23f8ee7eb2d01.jpg”
-          alt = "头像"
-          宽度= “40px”
-          高度= "40px"
-          样式= “右边距：10像素”
+        <img
+          src="https://p1.ssl.qhimgs1.com/sdr/400__/t016fe23f8ee7eb2d01.jpg"
+          alt="头像"
+          width="40px"
+          height="40px"
+          style="margin-right: 10px"
         />
         <div>zzz</div>
       </div>
@@ -102,4 +102,4 @@
     </div>
   </body>
 </html>
-
+d-1.html…]()
