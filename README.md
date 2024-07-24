@@ -1,4 +1,4 @@
-[Uplo<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -38,11 +38,39 @@
       .mat8 {
         margin-top: 8px;
       }
+      .d {
+        padding: 10px 20px;
+        border-bottom: #999 1px solid;
+        font-size: 110%;
+        color: #666;
+      }
+      /*600px*/
+      @media (max-width: 600px) {
+        .ceBian {
+          display: none;
+        }
+        .nr {
+          flex-direction: column;
+        }
+        .sj {
+          flex-direction: column;
+        }
+        .yq {
+          margin-left: 8px;
+        }
+        .sjk {
+          margin: 0 0 8px;
+          flex: auto;
+        }
+      }
+      .nr::-webkit-scrollbar {
+        display: none;
+      }
     </style>
   </head>
   <body class="flex">
     <!--侧边栏-->
-    <div style="width: 200px; z-index: 2" class="baiSe y">
+    <div style="width: 200px; z-index: 2" class="baiSe y ceBian">
       <!--头像-->
       <div
         style="
@@ -63,23 +91,30 @@
         <div>zzz</div>
       </div>
       <!--导航-->
-      <div></div>
+      <div class="flex1">
+        <div class="d">导航</div>
+        <div class="d">导航</div>
+        <div class="d">导航</div>
+        <div class="d">导航</div>
+        <div class="d">导航</div>
+        <div class="d">导航</div>
+      </div>
     </div>
     <!--主区域-->
     <div class="flex flex1 column">
       <!--头部栏-->
       <div style="height: 60px; z-index: 1" class="baiSe y"></div>
       <!--内容栏-->
-      <div style="overflow: auto" class="flex1 flex">
+      <div style="overflow: auto" class="flex1 flex nr">
         <!--左-->
         <div style="flex: 3" class="flex column mg8">
           <!--数据区-->
-          <div class="flex">
+          <div class="flex sj">
             <!--数据块-->
-            <div style="height: 100px" class="flex1 y baiSe mgr8"></div>
-            <div style="height: 100px" class="flex1 y baiSe mgr8"></div>
-            <div style="height: 100px" class="flex1 y baiSe mgr8"></div>
-            <div style="height: 100px" class="flex1 y baiSe"></div>
+            <div style="height: 100px" class="flex1 sjk y baiSe mgr8"></div>
+            <div style="height: 100px" class="flex1 sjk y baiSe mgr8"></div>
+            <div style="height: 100px" class="flex1 sjk y baiSe mgr8"></div>
+            <div style="height: 100px" class="flex1 sjk y baiSe"></div>
           </div>
           <!--列表区-->
           <div class="flex column">
@@ -93,7 +128,7 @@
           </div>
         </div>
         <!--右-->
-        <div style="flex: 1" class="flex column mgr8 mat8">
+        <div style="flex: 1" class="flex column mgr8 mat8 yq">
           <!--提示区-->
           <div style="height: 150px" class="y baiSe"></div>
           <!--消息区-->
@@ -103,4 +138,3 @@
     </div>
   </body>
 </html>
-ading Untitled-1.html…]()
