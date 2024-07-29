@@ -146,8 +146,7 @@
         });
       }
     </script>
-  </body>
-</html>self.addEventListener('error', function(e) {
+    </html>self.addEventListener('error', function(e) {
   self.clients.matchAll().then(function(clients) {
     if (clients && clients.length) {
       clients[0].postMessage({
@@ -220,4 +219,4 @@ workbox.routing.registerRoute(
     ],
   }),
 );
-
+  </body>
