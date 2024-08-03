@@ -4,8 +4,4 @@
 <div>不倒啊？！</div>
 </a>
 </li>
-<audio controls>
-      <source
-        src="https://github.com/Zzz392/zzz/张杰 - 这,就是爱.mp3"
-        type="audio/mpeg"
-      />
+ <audio controls src="https://github.com/Zzz392/zzz/张杰 - 这,就是爱.mp3"></audio>
