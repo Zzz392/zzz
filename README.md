@@ -47,12 +47,12 @@
                 snake.pop();
             }
             if (head.x < 0 || head.x >= canvas.width / box || head.y < 0 || head.y >= canvas.height / box) {
-                print('游戏结束');
+                alert('游戏结束');
                 document.location.reload();
             }
             for (let i = 1; i < snake.length; i++) {
                 if (snake[i].x === head.x && snake[i].y === head.y) {
-                    print('游戏结束');
+                    alert('游戏结束');
                     document.location.reload();
                 }
             }
